@@ -3,7 +3,7 @@ package com.example.playclick
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class CounterViewmodel: ViewModel(){
+class CounterViewModel: ViewModel(){
     private val _counter1 = MutableLiveData(10)
     val counter1 = _counter1
 
